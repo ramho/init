@@ -1,0 +1,7 @@
+Resultat de question 12 : 10.2.9.3
+
+nslookup 10.2.9.3
+Server:		10.51.1.1
+Address:	10.51.1.1#53
+
+3.9.2.10.in-addr.arpa	name = e-r9-p3.s19.be.

@@ -1,0 +1,2 @@
+#en1 ( wireless) or en0 (wired) interface details of wifi
+ifconfig en1 | grep 'ether' | awk '{print$2}'

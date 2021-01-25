@@ -1,0 +1,1 @@
+nslookup slash16.org | grep -m1 Server 

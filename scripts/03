@@ -1,0 +1,19 @@
+echo "Which projet would you like to start?"
+
+read name
+mkdir ~/Desktop/$name
+mkdir ~/Desktop/$name/srcs
+mkdir ~/Desktop/$name/includes
+touch ~/Desktop/$name/Makefile
+touch ~/Desktop/$name/includes/$name.h
+
+echo "How many teammates :) ?"
+read number
+
+while [ $number  -gt 0 ]; do
+	echo "What's the username?"
+	read author
+	echo $author >> ~/Desktop/$name/author
+	number=`expr $number - 1`
+	done
+echo "Set-up completed"
